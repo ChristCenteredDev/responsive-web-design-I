@@ -284,5 +284,22 @@ footer {
 
 /* Phones */
 @media screen and (max-width: 500px) {
-	
+	nav {
+		flex-direction: column;
+	}
+
+	nav a {
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid black;
+	}
+
+	.twin-container {
+		width: 100%;
+	}
+
+	.trio-container {
+		width: 100%;
+		padding-bottom: 20px;
+	}
 }
