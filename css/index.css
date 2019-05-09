@@ -280,6 +280,11 @@ footer {
 	header .twin-container:nth-child(2) {
 		display: none;
 	}
+
+	/* Services Page */
+	.services-header-img {
+		display: none;
+	}
 }
 
 /* Phones */
