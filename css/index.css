@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /* Containers */
 
 .container {
-	width: 800px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -246,4 +246,42 @@ footer {
 	display: list-item;
 	margin-left: 1.5em;
 	padding: 5px 0;
+}
+
+/* Tablet */
+@media screen and (max-width: 800px) {
+
+	nav {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	nav a {
+		order: 2;
+		padding: 20px 0;
+	}
+
+	nav a:nth-of-type(7) {
+		order: 1;
+		width: 100%;
+		text-align: center;
+	}
+
+	.logo {
+		padding: 0;
+	}
+	
+
+	header .twin-container {
+		margin: 0 auto 40px;
+	}
+	
+	header .twin-container:nth-child(2) {
+		display: none;
+	}
+}
+
+/* Phones */
+@media screen and (max-width: 500px) {
+	
 }
